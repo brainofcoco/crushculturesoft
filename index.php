@@ -1,115 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<!-- Basic Page Needs -->
-	<meta charset="UTF-8">
-	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
-	<title>Crush Culture - #1 ERP</title>
-
-	<meta name="author" content="Crush Culture">
-
-    <!-- Mobile Specific Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    
-    <!-- REVOLUTION LAYERS STYLES -->
-    <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
-    <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
-
-    <!-- Boostrap style -->
-    <link rel="stylesheet" type="text/css" href="stylesheet/bootstrap.css">
-
-    <!-- Icommon icon -->
-    <link rel="stylesheet" type="text/css" href="stylesheet/icommon.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-
-    <!-- Theme style -->
-    <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
-
-    <!-- Colors -->
-    <link rel="stylesheet" type="text/css" href="stylesheet/colors/color1.css" id="colors"> 
-
-    <!-- Responsive -->
-    <link rel="stylesheet" type="text/css" href="stylesheet/responsive.css">
-
-    <!-- Carousel -->
-    <link rel="stylesheet" type="text/css" href="stylesheet/owl.carousel.min.css">
-    <link rel="stylesheet" type="text/css" href="stylesheet/owl.theme.default.min.css">
-
-    <!-- Animation Style -->
-    <link rel="stylesheet" type="text/css" href="stylesheet/animate.css">
-
-    <!-- FancyBox -->
-    <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css"  media="screen"/>
-    
-    <!-- Favicon and touch icons  -->
-    <link href="icons/icon.png" rel="shortcut icon">
-    
-    <!-- Jquery -->
-    <script src="js/jquery.min.js"></script>
-</head>
-<body class="home header_sticky onepage">
-    <div class="boxed">
-
-        <div id="preloader">
-            <div id="preloader-status"></div>
-        </div>
-
-        <div class="header-wrap">
-            <header id="header" class="header clearfix">
-                <div class="container big">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="logo logo-top" >                  
-                                <a href="index.php" title="Crush Culture">
-                                    <img class="site-logo" style="max-width: 80px; max-height: 80px;"  src="images/logo.png" alt="Crush Culture logo" data-retina="images/logo@2x.png" />
-                                </a>
-                            </div><!-- /.logo -->
-                            <a href="#" class="button-menu center">Try it for Free</a>
-                            <div class="nav-wrap">
-                                <nav id="mainnav" class="mainnav">
-                                    <ul class="menu main-menu">
-                                        <li  class="menu-item">
-                                            <a href="index.php" class="active">Home</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item"><a href="index.php">About</a></li>
-                                            </ul>
-                                        </li>
-                                        <li  class="menu-item">
-                                            <a href="#features">Features</a>
-                                        </li>
-                                        <li  class="menu-item">
-                                            <a href="#pricingtable">Pricing Table</a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="#service">Service</a>
-                                        </li>
-                                        <li  class="menu-item">
-                                            <a href="#download">Download</a>
-                                        </li>
-                                        <!-- <li  class="menu-item">
-                                            <a href="blog-list.html">Blog</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="blog-list.html">Blog List</a>
-                                                <li><a href="blog-list-small.html">Blog List Small</a>
-                                                <li><a href="blog-single-s1.html">Blog Single Style 01</a>
-                                                </li>
-                                                <li><a href="blog-single-s2.html">Blog Single Style 02</a>
-                                                </li>
-                                            </ul> 
-                                        </li> -->
-                                    </ul>    
-                                </nav><!-- #site-navigation -->  
-                                <div class="btn-menu">
-                                    <span></span>
-                                </div><!-- //mobile menu button -->
-                            </div><!-- /.nav-wrap -->
-
-                        </div><!-- /.col-sm-12 -->
-                    </div><!-- /.row -->
-                </div><!-- /.container -->
-            </header><!-- /.header -->   
-        </div> <!-- /.header-wrap -->
-    
+<?php
+$me_text="active";
+include('./header.php');
+?>    
     <div class="page-wrap home-2">
         <div id="rev_slider_2_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery">
             <!-- START REVOLUTION SLIDER 5.4.7.3 fullwidth mode -->
@@ -158,7 +50,7 @@
                     data-paddingleft="[20,20,20,20]">Powerful, easy to Customize, Faster & Secured. </div>
 
                     <!-- LAYER NR. 3 -->
-                    <div class="tp-caption rev-btn rev-withicon tp-resizeme button style1 btn-slider" 
+                    <a class="tp-caption rev-btn rev-withicon tp-resizeme button style1 btn-slider" 
                     id="get-start-btn" 
                     data-x="['center','center','center','center']" data-hoffset="['-575','-568','-566','-566']" 
                     data-y="['middle','middle','middle','middle']" data-voffset="['87','87','138','138']" 
@@ -173,8 +65,8 @@
                     data-paddingright="[0,0,0,0]"
                     data-paddingbottom="[0,0,0,0]"
                     data-paddingleft="[0,0,0,0]"
-
-                    style="">Get Started </div>
+                    href="demo_request.php"
+                    style="">Get Started </a>
 
                     <!-- LAYER NR. 4 -->
                     <div class="tp-caption tp-resizeme" 
@@ -208,7 +100,7 @@
                     data-paddingtop="[0,0,0,0]"
                     data-paddingright="[0,0,0,0]"
                     data-paddingbottom="[0,0,0,0]"
-                    data-paddingleft="[0,0,0,0]"><a class="fancybox font-maison" data-type="iframe" href="https://www.youtube.com/embed/LHO9BdVDJVM?autoplay=1"><span class="icon-noun_498864_cc"></span> How It's Work?</a> </div>
+                    data-paddingleft="[0,0,0,0]"><a class="fancybox font-maison" data-type="iframe" href="demo_request.php"><span class="icon-noun_498864_cc"></span> How It's Work?</a> </div>
                 </li>
             </ul>
            
@@ -604,7 +496,7 @@
                     <div class="col-md-12 text-center">
                         <div class="title-section style3 center">
                             <h2 class="title">
-                               169k+ happy clients
+                               2k+ happy clients
                             </h2>
                         </div>
 
@@ -615,7 +507,7 @@
                                     <div class="testimonial-content left">
                                         <div class="testimonial-author">
                                             <blockquote class="quote">
-                                                "Social proof buzz network effects non-disclosure agreement sales alpha creative holy grail ownership founders launch party. Advisor deployment seed round founders angel investor incubator lorem doi a met business-to-business infographic!"
+                                                "Crush Culture ERP has helped my small business grow overtime, now i am so addicted that i dont go to sleep without seeing audit and reports and this are stuffs i find boring before. "
                                             </blockquote>
                                             <div class="testimonial-info">
                                                 <div class="testimonial-image">
@@ -625,7 +517,7 @@
                                                     <h6 class="author-name">Felix Nguyen</h6>
                                                     <div class="wrap-stars"></div>
                                                     <div class="author-position">
-                                                        <p>Apple’s CEO</p>
+                                                        <p>Chrome Softtek CEO</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -636,16 +528,16 @@
                                     <div class="testimonial-content left">
                                         <div class="testimonial-author">
                                             <blockquote class="quote">
-                                                "Social proof buzz network effects non-disclosure agreement sales alpha creative holy grail ownership founders launch party. Advisor deployment seed round founders angel investor incubator lorem doi a met business-to-business infographic!"
+                                                "My financial reports are accurately done, i even built survey to get feedback for my company with this. I run a software as a service business and this has really helped me to manage my clients."
                                             </blockquote>
                                             <div class="testimonial-info">
                                                 <div class="testimonial-image">
                                                     <img width="55" height="55" src="images/testimonial.png" alt="image" class="testimonial-image" />
                                                 </div>
                                                 <div class="author-info">
-                                                    <h6 class="author-name">Felix Nguyen</h6>
+                                                    <h6 class="author-name">Ajiboye Oluwaseun Samuel</h6>
                                                     <div class="wrap-stars"></div>
-                                                    <div class="author-position"><p>Apple’s CEO</p></div>
+                                                    <div class="author-position"><p>Cocono Limited CEO</p></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -664,13 +556,13 @@
                 <div class="row">
                     <div class="col-sm-12 center">
                         <div class="title-section">
-                            <h2 class="title">Get started with Crush Culture</h2>
+                            <h2 class="title">Join Us!</h2>
                             <div class="title-content">
-                                <p>The best Start Up for your Perfect SasS</p>
+                                <p>The Crush Culture Slack Community</p>
                             </div>
                         </div><!-- /.title-section -->
                         <div id="try-it-btn">
-                            <a class="button style2" href="demo_request.php">Try It Now</a>
+                            <a class="button style2" href="https://join.slack.com/t/thecrushculture/signup">Join Now</a>
                         </div><!-- /#try-it -->
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
@@ -678,117 +570,6 @@
         </section><!-- /.call-to-action -->
     </div><!-- /.page-wrap -->
     
-    <footer class="flat-call-back">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-
-                    <div class="text-call-back">
-                        <div class="title">
-                            <h1>Start <strong>growing up</strong> your startup with Crush Culture</h1>
-                        </div>
-                        <div class="button-call-back center">
-                            <a href="#" id="sub-button">Subscribe Now</a>
-                        </div>
-                    </div><!-- /.text-call-back -->
-
-                </div><!-- /.col-md-12 -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </footer><!-- /.flat-call-back -->
-      
-    <div class="bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-sm-12">
-                    <div id="logo-footer" class="logo-ft" >                  
-                        <a href="index.php"  title="Crush Culutre">
-                           <img class="site-logo-ft" src="images/logo.png" alt="image" data-retina="images/logo@2x.png"/>
-                        </a>
-                    </div>
-                </div><!-- /.col-lg-4 col-sm-12 -->
-
-                <div class="col-lg-4 col-sm-12">
-                    <div class="copyright">
-                        <p>© <a href="#">Crush Culture</a> <?php echo date('Y'); ?>. All rights reserved.</p>
-                    </div>
-                </div><!-- /.col-lg-4 col-sm-12 -->
-
-                <div class="col-lg-4 col-sm-12">
-                    <ul class="flat-socials">
-                        <!-- <li class="facebook">
-                            <a href="#" target="_blank" rel="alternate" title="Facebook">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                        </li> -->
-                        <!-- <li class="twitter">
-                            <a href="#" target="_blank" rel="alternate" title="Twitter">
-                                <i class="fa fa-twitter"></i>
-                            </a>
-                        </li> -->
-                        <!-- <li class="google-plus">
-                            <a href="#" target="_blank" rel="alternate" title="Google plus">
-                                <i class="fa fa-google-plus"></i>
-                            </a>
-                        </li> -->
-                        <!-- <li class="linkedin">
-                            <a href="#" target="_blank" rel="alternate" title="Linkedin"> <i class="fa fa-linkedin"></i>
-                            </a>
-                        </li> -->
-                        <!-- <li class="youtube">
-                            <a href="#" target="_blank" rel="alternate" title="Youtube">
-                                <i class="fa fa-youtube-play"></i>
-                            </a>
-                        </li> -->
-                    </ul><!-- /.flat-socials -->      
-                </div><!-- /.col-lg-4 col-sm-12 -->
-
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </div><!-- /.bottom -->
-
-    <div class="button-go-top">
-        <a href="#" title="" class="go-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
-    
-    <!-- Fancybox -->
-    <script  src="fancybox/jquery.fancybox.js"></script>
-    <script  src="fancybox/jquery.fancybox.pack.js"></script>
-
-    <script type="text/javascript" src="js/jquery.easing.js"></script> 
-    <!-- Google map javascript -->
-    <script src="js/gmap3.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIEU6OT3xqCksCetQeNLIPps6-AYrhq-s&region=GB"></script>
- 
-
-    <script  src="js/jquery.easing.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    
-    <script  src="js/jquery.cookie.js"></script>
-    <script  src="js/main.js"></script>
-
-    <!-- Revolution Slider -->
-    <script  src="revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script  src="revolution/js/jquery.themepunch.revolution.min.js"></script>
-
-    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->    
-    <script  src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script  src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-    <script  src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script  src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script  src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
-    <script  src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script  src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script  src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script  src="revolution/js/extensions/revolution.extension.video.min.js"></script>
-    <script  src="js/rev-slider.js"></script>
-
-    <!-- Carousel -->
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/owl-carousel.js"></script>
-
-
-</body>
-</html>
+<?php
+include('./footer.php');
+?>

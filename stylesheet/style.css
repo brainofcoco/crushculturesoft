@@ -1516,7 +1516,23 @@ input[name="email"] {
   float: right;
 }
 
+input[name="company"] {
+  width: 100%;
+}
+
 input[name="website"] {
+  width: 100%;
+}
+
+input[name="phone"] {
+  width: 100%;
+}
+
+input[name="country"] {
+  width: 100%;
+}
+
+input[name="address"] {
   width: 100%;
 }
 
