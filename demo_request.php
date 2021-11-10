@@ -1,4 +1,18 @@
 <?php
+require 'vendor/autoload.php';
+
+// Without Composer (and instead of "require 'vendor/autoload.php'"):
+// require('./vendor/sendpulse/rest-api/src/ApiInterface');
+// require("./vendor/sendpulse/rest-api/src/ApiClient.php");
+// require("./vendor/sendpulse/rest-api/src/Storage/TokenStorageInterface.php");
+// require("./vendor/sendpulse/rest-api/src/Storage/FileStorage.php");
+// require("./vendor/sendpulse/rest-api/src/Storage/SessionStorage.php");
+// require("./vendor/sendpulse/rest-api/src/Storage/MemcachedStorage.php");
+// require("./vendor/sendpulse/rest-api/src/Storage/MemcacheStorage.php");
+
+use vendor\Sendpulse\RestApi\ApiClient;
+use vendor\Sendpulse\RestApi\Storage\FileStorage;
+
 $me_text="";
 include('./header.php');
 
@@ -16,23 +30,9 @@ $feedback = "";
               // email
 if(isset($_POST['submit'])) {
     // run email
-    require 'vendor/autoload.php';
-
-// Without Composer (and instead of "require 'vendor/autoload.php'"):
-require("vendor/sendpulse-rest-api-php/src/ApiInterface.php");
-require("vendor/sendpulse-rest-api-php/src/ApiClient.php");
-require("vendor/sendpulse-rest-api-php/src/Storage/TokenStorageInterface.php");
-require("vendor/sendpulse-rest-api-php/src/Storage/FileStorage.php");
-require("vendor/sendpulse-rest-api-php/src/Storage/SessionStorage.php");
-require("vendor/sendpulse-rest-api-php/src/Storage/MemcachedStorage.php");
-require("vendor/sendpulse-rest-api-php/src/Storage/MemcacheStorage.php");
-
-// use Sendpulse\RestApi\ApiClient;
-// use Sendpulse\RestApi\Storage\FileStorage;
-
 // API credentials from https://login.sendpulse.com/settings/#api
-define('API_USER_ID', '9b92c7fa94a367f8eba33df1a3227223');
-define('API_SECRET', 'fb9ca21572268b0b6e5f33bd43a8b105');
+define('API_USER_ID', 'ce0840a6c1a6396ccdcaaf7e0de44306');
+define('API_SECRET', '65187e9b948d8cb236b92c6665172587');
 define('PATH_TO_ATTACH_FILE', __FILE__);
 
 $SPApiClient = new ApiClient(API_USER_ID, API_SECRET, new FileStorage());
@@ -89,7 +89,7 @@ $email = array(
 
 var_dump($SPApiClient->smtpSendMail($email));
     $feedback = "We got your message contact you soon!";
-    }
+}
               ?>
             <div class="col-md-12">
               <div class="comment-wrap style1">
