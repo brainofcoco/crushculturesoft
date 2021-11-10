@@ -19,13 +19,13 @@ if(isset($_POST['submit'])) {
     require 'vendor/autoload.php';
 
 // Without Composer (and instead of "require 'vendor/autoload.php'"):
-// require("your-path/sendpulse-rest-api-php/src/ApiInterface.php");
-// require("your-path/sendpulse-rest-api-php/src/ApiClient.php");
-// require("your-path/sendpulse-rest-api-php/src/Storage/TokenStorageInterface.php");
-// require("your-path/sendpulse-rest-api-php/src/Storage/FileStorage.php");
-// require("your-path/sendpulse-rest-api-php/src/Storage/SessionStorage.php");
-// require("your-path/sendpulse-rest-api-php/src/Storage/MemcachedStorage.php");
-// require("your-path/sendpulse-rest-api-php/src/Storage/MemcacheStorage.php");
+require("vendor/sendpulse-rest-api-php/src/ApiInterface.php");
+require("vendor/sendpulse-rest-api-php/src/ApiClient.php");
+require("vendor/sendpulse-rest-api-php/src/Storage/TokenStorageInterface.php");
+require("vendor/sendpulse-rest-api-php/src/Storage/FileStorage.php");
+require("vendor/sendpulse-rest-api-php/src/Storage/SessionStorage.php");
+require("vendor/sendpulse-rest-api-php/src/Storage/MemcachedStorage.php");
+require("vendor/sendpulse-rest-api-php/src/Storage/MemcacheStorage.php");
 
 // use Sendpulse\RestApi\ApiClient;
 // use Sendpulse\RestApi\Storage\FileStorage;
@@ -86,8 +86,8 @@ $email = array(
         'file.txt' => file_get_contents(PATH_TO_ATTACH_FILE),
     ),
 );
-var_dump($SPApiClient->smtpSendMail($email));
 
+var_dump($SPApiClient->smtpSendMail($email));
     $feedback = "We got your message contact you soon!";
     }
               ?>
@@ -106,7 +106,7 @@ var_dump($SPApiClient->smtpSendMail($email));
                   <p style="margin-bottom:30px;"></p>
                   <textarea placeholder="Will you like us to know anything?" id="comment"></textarea>
                   <input type="submit" name="post-comment" class=" btn-submit-comment" value="Book Demo">
-                  <h3 style="color:green;"><?php $feedback; ?></h3>
+                  <h3 style="color:green;"><?php echo $feedback; ?></h3>
                 </form>
               </div> <!-- /.comment-wrap -->
 
