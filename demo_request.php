@@ -27,8 +27,8 @@ if(isset($_POST['submit'])) {
 // require("your-path/sendpulse-rest-api-php/src/Storage/MemcachedStorage.php");
 // require("your-path/sendpulse-rest-api-php/src/Storage/MemcacheStorage.php");
 
-use Sendpulse\RestApi\ApiClient;
-use Sendpulse\RestApi\Storage\FileStorage;
+// use Sendpulse\RestApi\ApiClient;
+// use Sendpulse\RestApi\Storage\FileStorage;
 
 // API credentials from https://login.sendpulse.com/settings/#api
 define('API_USER_ID', '9b92c7fa94a367f8eba33df1a3227223');
@@ -56,7 +56,7 @@ $email = array(
     'subject' => '<p>Hello!</p>',
     'template' => array(
         'id' => 'DemoBooking',
-        'variables' => {
+        'variables' => array(
           'name' => $first_name,
           'phone' => $phone,
           'company' => $company,
@@ -64,7 +64,7 @@ $email = array(
           'address' => $address,
           'post_comment' => $post_comment,
           'current_year' => date('Y')
-        }
+        )
     ),
     'from' => array(
         'name' => 'Crush Culture ERP',
