@@ -20,6 +20,7 @@
 
     <!-- Icommon icon -->
     <link rel="stylesheet" type="text/css" href="stylesheet/icommon.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
     <!-- Theme style -->
     <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
@@ -59,8 +60,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="logo logo-top" >                  
-                                <a href="index.html" title="Rano Landing Page">
-                                    <img class="site-logo"  src="images/logo.png" alt="Rano logo"  data-retina="images/logo@2x.png" />
+                                <a href="index.php" title="Crush Culture">
+                                    <img class="site-logo" style="max-width: 80px; max-height: 80px;"  src="images/logo.png" alt="Crush Culture logo" data-retina="images/logo@2x.png" />
                                 </a>
                             </div><!-- /.logo -->
                             <a href="#" class="button-menu center">Try it for Free</a>
@@ -68,10 +69,9 @@
                                 <nav id="mainnav" class="mainnav">
                                     <ul class="menu main-menu">
                                         <li  class="menu-item">
-                                            <a href="index.html" class="active">Home</a>
+                                            <a href="index.php" class="active">Home</a>
                                             <ul class="sub-menu">
-                                                <li class="menu-item"><a href="index.html">Home 01</a></li>
-                                                <li class="menu-item"><a href="index-v2.html" class="active">Home 02</a></li>
+                                                <li class="menu-item"><a href="index.php">About</a></li>
                                             </ul>
                                         </li>
                                         <li  class="menu-item">
@@ -86,7 +86,7 @@
                                         <li  class="menu-item">
                                             <a href="#download">Download</a>
                                         </li>
-                                        <li  class="menu-item">
+                                        <!-- <li  class="menu-item">
                                             <a href="blog-list.html">Blog</a>
                                             <ul class="sub-menu">
                                                 <li><a href="blog-list.html">Blog List</a>
@@ -95,8 +95,8 @@
                                                 </li>
                                                 <li><a href="blog-single-s2.html">Blog Single Style 02</a>
                                                 </li>
-                                            </ul>   <!-- /.submenu -->
-                                        </li>
+                                            </ul> 
+                                        </li> -->
                                     </ul>    
                                 </nav><!-- #site-navigation -->  
                                 <div class="btn-menu">
@@ -117,7 +117,7 @@
                 <ul>    <!-- SLIDE  -->
                     <li data-index="rs-2" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-rotate="0"  data-saveperformance="off"  data-title="Slide">
                         <!-- MAIN IMAGE -->
-                        <img src="images/slide-1.png"  alt="" title="slide-2"  width="1920" height="1000" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                        <img src="images/slide-1.jpg"  alt="" title="slide-2"  width="1920" height="1000" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 1 -->
@@ -138,8 +138,7 @@
                         data-paddingleft="[0,0,0,0]"
                         data-captionhidden="on" 
 
-                        style="">Rano® - a premium landing <br />
-                    for App, SasS, Products... </div>
+                        style="">Crush Culture® CRM/ERP </div>
 
                     <!-- LAYER NR. 2 -->
                     <div class="tp-caption tp-resizeme subtitle-revslider" 
@@ -156,7 +155,7 @@
                     data-paddingtop="[0,0,0,0]"
                     data-paddingright="[0,0,0,0]"
                     data-paddingbottom="[0,0,0,0]"
-                    data-paddingleft="[20,20,20,20]">Powerful, easy to custumize, amazing design components. </div>
+                    data-paddingleft="[20,20,20,20]">Powerful, easy to Customize, Faster & Secured. </div>
 
                     <!-- LAYER NR. 3 -->
                     <div class="tp-caption rev-btn rev-withicon tp-resizeme button style1 btn-slider" 
@@ -180,8 +179,8 @@
                     <!-- LAYER NR. 4 -->
                     <div class="tp-caption tp-resizeme" 
                     id="slide-2-layer-6" 
-                    data-x="['left','left','left','left']" data-hoffset="['541','504','519','519']" 
-                    data-y="['top','top','top','top']" data-voffset="['130','121','285','285']" 
+                    data-x="['left','left','left','left']" data-hoffset="['900','780','780','780']" 
+                    data-y="['top','top','top','top']" data-voffset="['300','321','385','385']" 
                     data-width="none"
                     data-height="none"
                     data-whitespace="nowrap"
@@ -192,7 +191,7 @@
                     data-paddingtop="[0,0,0,0]"
                     data-paddingright="[0,0,0,0]"
                     data-paddingbottom="[0,0,0,0]"
-                    data-paddingleft="[0,0,0,0]"><img src="images/mac-slide.png" alt="" data-ww="['1340px','1340px','1340px','1340px']" data-hh="['802px','802px','802px','802px']" width="1340" height="802" data-no-retina> </div>
+                    data-paddingleft="[0,0,0,0]"><img src="images/no-background-mockup.png" alt="" data-ww="['720px','720px','720px','720px']" data-hh="['529.1px','529.1px','529.1px','529.1px']" width="720" height="529.1" data-no-retina> </div>
 
                     <!-- LAYER NR. 5 -->
                     <div class="tp-caption tp-resizeme" 
@@ -221,11 +220,13 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="title-section style3">
-                            <h2 class="title">Be ready with today.<br/>
-                                Future is now!
+                            <h2 class="title">Say bye to Stress.<br/>
+                                Work even Smarter!
                             </h2>
                             <div class="title-content">
-                                <p>Rano &#8211; designed with you in mind. Make your next screen your best one yet.</p>
+                                <p>Crush Culture ERP/CRM &#8211; Enterprise resource planning software designed with you in mind. <br/>
+                                Leave the workload to us, we got you.
+                                 .</p>
                             </div>
                         </div>                        
                    </div><!-- /.col-sm-12 -->
@@ -236,9 +237,9 @@
                             </div>
                             <div class="iconbox-content">
                                <h4 class="title">
-                                  Design for everyone
+                                  Powerful HR Management
                                </h4>
-                               <p>Rano Land is a finished product that has already been launched.</p>
+                               <p>Manage staffs and activities across the ERP, Share documents, Chat & Explore more.</p>
                             </div>
                         </div>
                     </div>
@@ -251,7 +252,7 @@
                             </div>
                             <div class="iconbox-content">
                                 <h4 class="title">Crazy speed load</h4>
-                                <p>99 point GTMetrix are not backed up by any product prototype.</p>
+                                <p>Zero downtime, respond to every click Immediately, 24/7 support. </p>
                             </div>
                         </div>
                     </div>
@@ -263,13 +264,98 @@
                             </div>
                             <div class="iconbox-content">
                                 <h4 class="title">
-                                    Easy to control
+                                    Accurate Report
                                 </h4>
-                                <p>It is questionable if traditional lotteries provide for fair play.</p>
+                                <p>You cant be MIA with the Activities around your company, see activity Logs, chart based report & so much more.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 text-center"><a class="button" href="#" id="learn-more-btn">Learn More</a></div>
+
+                    <div class="col-lg-4">
+                        <div class="iconbox">
+                            <div class="iconbox-icon">
+                                <div class="icon"><span class="fas fa-book gradient" style=""></span></div>
+                            </div>
+                            <div class="iconbox-content">
+                                <h4 class="title">
+                                    Simple & Advance Accounting
+                                </h4>
+                                <p>Accurate Accounting, Transactions, Journal Entry, Chart of Account, Reconciliation & Budget.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="iconbox">
+                            <div class="iconbox-icon">
+                                <div class="icon"><span class="fas fa-file-invoice-dollar gradient" style=""></span></div>
+                            </div>
+                            <div class="iconbox-content">
+                                <h4 class="title">
+                                    Payment & Simple/Advance Invoice
+                                </h4>
+                                <p>Prepare invoices, contracts & monitor payment status, support multiple payment services & multiple currencies (Paypal, Paystack, Stripe & many more).</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="iconbox">
+                            <div class="iconbox-icon">
+                                <div class="icon"><span class="fas fa-project-diagram gradient" style=""></span></div>
+                            </div>
+                            <div class="iconbox-content">
+                                <h4 class="title">
+                                   Powerful Project Management Tool
+                                </h4>
+                                <p>Have total control of your Project from Task Assigning, Milestone, Timesheets, Deadline Tracking, Gantt chart, Tickets, Discussion forum and Procurement.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="iconbox">
+                            <div class="iconbox-icon">
+                                <div class="icon"><span class="fas fa-inventory gradient" style=""></span></div>
+                            </div>
+                            <div class="iconbox-content">
+                                <h4 class="title">
+                                    Inventory Management
+                                </h4>
+                                <p>Manage Stocks, Loss & Adjustment, Warehouse & Suppliers & Asset Management</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="iconbox">
+                            <div class="iconbox-icon">
+                                <div class="icon"><span class="fas fa-calendar-week gradient" style=""></span></div>
+                            </div>
+                            <div class="iconbox-content">
+                                <h4 class="title">
+                                    Appointment & Schdules
+                                </h4>
+                                <p>Schedule Appointment with Staffs, Clients, Across department, project & chat system.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="iconbox">
+                            <div class="iconbox-icon">
+                                <div class="icon"><span class="fas fa-comments-alt gradient" style=""></span></div>
+                            </div>
+                            <div class="iconbox-content">
+                                <h4 class="title">
+                                    Chat System
+                                </h4>
+                                <p>Experience the true fun of communication among Employees & boss, fast, easy & secured.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 text-center"><a class="button" href="demo_request.php" id="learn-more-btn">Learn More</a></div>
                     
                 </div><!-- /.row -->
             </div><!-- /.container-->
@@ -279,7 +365,7 @@
             <div class="container big">
                 <div class="row">
                     <div class="col-md-12 center">
-                        <img src="images/home-04.jpg" alt="image"/>
+                        <img src="images/illstration.svg" alt="image"/>
                     </div>
                 </div><!-- /.row-->
             </div><!-- /.container-fluid -->
@@ -289,17 +375,19 @@
             <div class="container big">
                 <div class="row section-3">
                     <div class="col-sm-12 col-lg-6 section-left">
-                        <div id="themesflat-map"></div> 
+                        <div class="col-md-12 center">
+                        <img src="images/smartmockup1.jpg" alt="image"/>
+                    </div>
                     </div>
 
                     <div class="col-sm-12 col-lg-6 section-right color-white">
                         <div class="section-wrap">
                             <div class="title-section style2">
                             <h2 class="title color-white">
-                               Simpler than ever to start your own
+                               Simpler than ever to start, Book a demo!
                             </h2>
                             <div class="title-content">
-                               <p>Social proof buzz network effects non-disclosure agreement sales alpha creative holy.</p>
+                               <p>Streamline organization workflow & interactions with customers, powerful data analysis to study large amounts of information across your business</p>
                             </div>
                             </div>
                             <div class="iconbox style2">
@@ -310,17 +398,17 @@
                                    </div>
                                 </div>
                                 <div class="iconbox-content right">
-                                   <div class="sub-title" id="control-box">
-                                      CONTROL
-                                   </div>
                                    <h4 class="title color-white">
-                                      This is extended feature #1
+                                      Make Profit & Focus more on the Actual Business
                                    </h4>
-                                   <p>Social proof buzz network effects non-disclosure agreement sales alpha creative holy grail.</p>
+                                   <p>Try Crush Culture for Free.</p>
                                 </div>
                             </div>
                         </div><!-- /.section-wrap -->
                     </div>
+
+                    <div class="col-sm-12 text-center"><a class="button" href="demo_request.php" id="learn-more-btn" style="background-color:white; color:black;">Try it for free!</a></div>
+                    
                 </div><!-- /.row -->
 
             </div><!-- /.container-fluid -->
@@ -335,8 +423,8 @@
                                 Do more of what you always wanted
                             </h2>
                             <div class="title-content">
-                                <p>Social proof buzz network effects non-disclosure agreement sales alpha creative holy grail ownership founders <a href="#">launch party</a>.
-                                Advisor deployment seed round founders angel investor incubator lorem doi a met.
+                                <p>We take care of security, management, accounting, customers & reports <a href="demo_request.php">Try Demo</a>.
+                                Just sit back and control it with your (laptop, phones or ipad).
                                 </p>
                             </div>
                         </div>
@@ -350,18 +438,18 @@
 
                             <div class="iconbox-content right">
                                 <div class="sub-title" id="setting-box">
-                                    SETTING
+                                    100% Efficient
                                 </div>
                                 <h4 class="title">
-                                   This is extended feature #2
+                                   Avoid Stress & keep eyes on Profit
                                 </h4>
-                                <p>Social proof buzz network effects non-disclosure agreement sales alpha creative holy grail.</p>
+                                <p>We worry about your company. Lets do Deployment, Integration & Customization, Testing & Training</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-lg-7 section-right">
                         <figure class="wrapper figure">
-                            <img width="1244" height="957" src="images/home-05.jpg" alt="image"/>
+                            <img width="1244" height="957" src="images/crush-culture.jpg" alt="image"/>
                         </figure>
                     </div>
                 </div><!-- /.section-4 -->
@@ -389,52 +477,83 @@
                         <div class="price-item style1">
                             <div class="price-header">
                                 <div class="title color-default">
-                                    Starter
+                                    Personal
                                 </div>
                                 <div class="price-number">
-                                    <div class="value-item value-item-show">FREE <span class="time">per Year</span></div>
-                                    <div class="value-item value-item-hide">FREE <span class="time">per Month</span></div>
+                                    <div class="value-item value-item-show">$240 <span class="time">per Year</span></div>
+                                    <div class="value-item value-item-hide">$20 <span class="time">per Month </span></div>
+                                </div>
+
+                                <hr>
+
+                                <div class="price-number">
+                                    <div class="value-item value-item-show">₦ 120k <span class="time">per Year</span></div>
+                                    <div class="value-item value-item-hide">₦ 10k <span class="time">per Month </span></div>
                                 </div>
                             </div>
                             <div class="price-content">
                                 <ul>
-                                    <li>2 projects</li>
-                                    <li>Unlimited hosted projects</li>
+                                    <li>unlimited projects</li>
+                                    <li>2GB space</li>
+                                    <li>10 Users</li>
+                                    <li>10 features</li>
+                                    <li>Depolyment & Setup</li>
+                                    <li>Training material</li>
                                     <li class="not-used">No code export</li>
-                                    <li class="not-used">No password protection</li>
+                                    <li class="not-used">No Database Backup (extra charges)</li>
+                                    <li class="not-used">No Accounting (extra charges)</li>
+                                    <li class="not-used">No Inventory (extra charges)</li>
+                                    <li class="not-used">No Payment Services</li>
+                                    <li class="not-used">No Multiple currencies</li>
+                                    <li class="not-used">No Email Integration</li>
+                                    <li class="not-used">No SSL protection</li>
                                 </ul> 
                             </div>
                             <div class="readmore">
-                                <a class="button" href="#">Get Free</a>
+                                <a class="button" href="#">Buy Now</a>
                             </div>
                             <div class="image-price"></div>
                         </div>
                     </div>
                     <!-- /.price-wrapper -->
                     <div class="col-lg-4 price-wrapper mb-mb30">
-                        <div class="price-item style2">
+                        <div class="price-item style1">
                             <div class="price-header">
-                                <div class="title color-white">
-                                    Freelance
+                                <div class="title color-default">
+                                    Startup
                                 </div>
                                 <div class="price-number">
-                                    <div class="value-item value-item-show">12$ <span class="time">per Year</span></div>
-                                    <div class="value-item value-item-hide">1$ <span class="time">per Month</span></div>
+                                    <div class="value-item value-item-show">$240 <span class="time">per Year</span></div>
+                                    <div class="value-item value-item-hide">$20 <span class="time">per Month </span></div>
+                                </div>
+
+                                <hr>
+
+                                <div class="price-number">
+                                    <div class="value-item value-item-show">₦ 400k <span class="time">per Year</span></div>
+                                    <div class="value-item value-item-hide">₦ 35k <span class="time">per Month </span></div>
                                 </div>
                             </div>
                             <div class="price-content">
                                 <ul>
-                                    <li>10 projects</li>
-                                    <li>Unlimited hosted projects</li>
-                                    <li>Code export</li>
-                                    <li class="not-used">No password protection</li>
-                                </ul>
+                                    <li>unlimited projects</li>
+                                    <li>40GB space</li>
+                                    <li>unlimited Users</li>
+                                    <li>all features</li>
+                                    <li>depolyment & Setup</li>
+                                    <li>training material</li>
+                                    <li>24/7 support</li>
+                                    <li>database Backup (requested)</li>
+                                    <li>multiple currencies</li>
+                                    <li>email Integration</li>
+                                    <li>SSL protection</li>
+                                    <li class="not-used">No code export/separete server</li>
+                                    <li class="not-used">No customization</li>
+                                    <li class="not-used">No Personal domain</li>
+                                </ul> 
                             </div>
                             <div class="readmore">
                                 <a class="button" href="#">Buy Now</a>
-                            </div>
-                            <div class="image-price" style="">
-                                <img src="images/price.png" class="" alt="image" />
                             </div>
                         </div>
                     </div>
@@ -443,20 +562,31 @@
                         <div class="price-item style1">
                             <div class="price-header">
                                 <div class="title color-default">
-                                    Business
+                                    Big Man
                                 </div>
                                 <div class="price-number">
-                                    <div class="value-item value-item-show">24$ <span class="time">Per Year</span></div>
-                                    <div class="value-item value-item-hide">2$ <span class="time">Per Month</span></div>
+                                    <div class="value-item value-item-show"><span class="time">Contact us</span></div>
+                                    <div class="value-item value-item-hide"><span class="time">Contact us </span></div>
                                 </div>
                             </div>
                             <div class="price-content">
                                 <ul>
-                                    <li>30 projects</li>
-                                    <li>Unlimited hosted projects</li>
-                                    <li>Code export</li>
-                                    <li>Password protection</li>
-                                </ul>
+                                    <li>unlimited projects</li>
+                                    <li>unlimited space</li>
+                                    <li>unlimited Users</li>
+                                    <li>all features</li>
+                                    <li>depolyment & Setup</li>
+                                    <li>physical training</li>
+                                    <li>24/7 support</li>
+                                    <li>database Backup (requested)</li>
+                                    <li>multiple currencies</li>
+                                    <li>email Integration</li>
+                                    <li>SSL protection</li>
+                                    <li>code export/separete server (requested)</li>
+                                    <li>customization & pick our customized skins</li>
+                                    <li>API Integration</li>
+                                    <li>lifetime update/upgrade</li>
+                                </ul> 
                             </div>
                             <div class="readmore">
                                 <a class="button " href="#">Buy Now</a>
@@ -534,18 +664,14 @@
                 <div class="row">
                     <div class="col-sm-12 center">
                         <div class="title-section">
-                            <h2 class="title">Get started with Rano</h2>
+                            <h2 class="title">Get started with Crush Culture</h2>
                             <div class="title-content">
                                 <p>The best Start Up for your Perfect SasS</p>
                             </div>
                         </div><!-- /.title-section -->
                         <div id="try-it-btn">
-                            <a class="button style2" href="#">Try It Now</a>
+                            <a class="button style2" href="demo_request.php">Try It Now</a>
                         </div><!-- /#try-it -->
-            
-                        <figure>
-                            <img src="images/home-06.png" alt="mac-image">
-                        </figure>
                     </div><!-- /.col-md-12 -->
                 </div><!-- /.row -->
             </div><!-- /.container -->
@@ -559,7 +685,7 @@
 
                     <div class="text-call-back">
                         <div class="title">
-                            <h1>Start <strong>growing up</strong> your startup with Rano</h1>
+                            <h1>Start <strong>growing up</strong> your startup with Crush Culture</h1>
                         </div>
                         <div class="button-call-back center">
                             <a href="#" id="sub-button">Subscribe Now</a>
@@ -576,44 +702,44 @@
             <div class="row">
                 <div class="col-lg-4 col-sm-12">
                     <div id="logo-footer" class="logo-ft" >                  
-                        <a href="index.html"  title="Rano Template">
-                           <img class="site-logo-ft" src="images/logo-black.png" alt="image" data-retina="images/logo-black@2x.png"/>
+                        <a href="index.php"  title="Crush Culutre">
+                           <img class="site-logo-ft" src="images/logo.png" alt="image" data-retina="images/logo@2x.png"/>
                         </a>
                     </div>
                 </div><!-- /.col-lg-4 col-sm-12 -->
 
                 <div class="col-lg-4 col-sm-12">
                     <div class="copyright">
-                        <p>© <a href="#">Rano</a> 2018. All rights reserved.</p>
+                        <p>© <a href="#">Crush Culture</a> <?php echo date('Y'); ?>. All rights reserved.</p>
                     </div>
                 </div><!-- /.col-lg-4 col-sm-12 -->
 
                 <div class="col-lg-4 col-sm-12">
                     <ul class="flat-socials">
-                        <li class="facebook">
+                        <!-- <li class="facebook">
                             <a href="#" target="_blank" rel="alternate" title="Facebook">
                                 <i class="fa fa-facebook"></i>
                             </a>
-                        </li>
-                        <li class="twitter">
+                        </li> -->
+                        <!-- <li class="twitter">
                             <a href="#" target="_blank" rel="alternate" title="Twitter">
                                 <i class="fa fa-twitter"></i>
                             </a>
-                        </li>
-                        <li class="google-plus">
+                        </li> -->
+                        <!-- <li class="google-plus">
                             <a href="#" target="_blank" rel="alternate" title="Google plus">
                                 <i class="fa fa-google-plus"></i>
                             </a>
-                        </li>
-                        <li class="linkedin">
+                        </li> -->
+                        <!-- <li class="linkedin">
                             <a href="#" target="_blank" rel="alternate" title="Linkedin"> <i class="fa fa-linkedin"></i>
                             </a>
-                        </li>
-                        <li class="youtube">
+                        </li> -->
+                        <!-- <li class="youtube">
                             <a href="#" target="_blank" rel="alternate" title="Youtube">
                                 <i class="fa fa-youtube-play"></i>
                             </a>
-                        </li>
+                        </li> -->
                     </ul><!-- /.flat-socials -->      
                 </div><!-- /.col-lg-4 col-sm-12 -->
 
